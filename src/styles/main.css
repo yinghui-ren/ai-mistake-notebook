@@ -1,0 +1,52 @@
+:root {
+  color: #eef3f6;
+  background: #101214;
+  --app-font-family: "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei UI",
+    "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC",
+    Arial, sans-serif;
+  --el-font-family: var(--app-font-family);
+  font-family:
+    var(--app-font-family);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #101214;
+  font-family: var(--app-font-family);
+}
+
+button,
+input,
+textarea,
+select,
+.el-button,
+.el-input__inner,
+.el-textarea__inner,
+.el-menu,
+.el-message,
+.el-drawer {
+  font-family: var(--app-font-family);
+}
+
+h1,
+h2,
+h3 {
+  display: inline-block;
+  border: 1px solid rgba(41, 185, 159, 0.28);
+  border-radius: 8px;
+  padding: 4px 10px;
+  box-shadow: var(--el-box-shadow-dark);
+  text-shadow:
+    0 0 12px rgba(41, 185, 159, 0.3),
+    0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.el-button {
+  border-radius: 999px;
+  font-weight: 800;
+}
