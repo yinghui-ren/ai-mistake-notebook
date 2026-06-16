@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AI错题本">
+  <defs>
+    <linearGradient id="cover" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38d9c0"/>
+      <stop offset="1" stop-color="#2f8fff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#061014" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#12181c"/>
+  <g filter="url(#shadow)">
+    <path d="M18 12h26c4.4 0 8 3.6 8 8v32H23c-4.4 0-8-3.6-8-8V15c0-1.7 1.3-3 3-3Z" fill="url(#cover)"/>
+    <path d="M23 19h20M23 28h18M23 37h12" stroke="#eefefe" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="m36 42 5 5 10-12" fill="none" stroke="#eefefe" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
